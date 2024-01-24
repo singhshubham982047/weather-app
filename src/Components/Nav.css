@@ -1,0 +1,37 @@
+nav {
+  padding: 0.5rem 0;
+  height: 100px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.18);
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  background-color: rgba(129, 219, 235, 0.473);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px 100px 0 0;
+}
+nav form {
+  width: 70%;
+  grid-template-columns: 5fr 1fr;
+  display: grid;
+}
+.searchField {
+  font-size: 1rem;
+  outline: none;
+  color: rgb(51, 47, 47);
+  background-color: transparent;
+  padding: 0.7rem;
+  border: none;
+  border-bottom: 2px solid rgb(138, 132, 132);
+  width: 90%;
+}
+nav form button {
+  cursor: pointer;
+  background-color: rgba(64, 218, 238, 0.877);
+  border-radius: 0 25px 25px 0;
+  font-size: 1rem;
+  outline: none;
+  /* border-color: 1px solid rgb(138, 132, 132) ; */
+  border: none;
+}
